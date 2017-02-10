@@ -26,7 +26,7 @@ typedef NS_ENUM(NSInteger, XGYCalendarType) {
 #define endDateYear 2100
 
 /**基本色调 （仅对  XGYCalendarType_Page 有效）*/
-#define kCalendarBasicColor [UIColor colorWithRed:231.0 / 255.0 green:85.0 / 255.0 blue:85.0 / 255.0 alpha:1.0]
+#define kCalendarBasicColor [UIColor colorWithRed:18.0 / 255.0 green:125.0 / 255.0 blue:240.0 / 255.0 alpha:1.0]
 
 /**背景蒙层的颜色 */
 #define kBackgroupColor   [[UIColor blackColor] colorWithAlphaComponent:0.35]
