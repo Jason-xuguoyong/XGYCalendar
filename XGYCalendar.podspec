@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "XGYCalendar"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "一行代码搞定日期选择！支持翻页选择和滚动选择"
 s.homepage     = "https://github.com/Jason-xuguoyong/XGYCalendar"
 s.license      = "MIT"

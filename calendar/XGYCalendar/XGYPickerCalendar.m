@@ -191,7 +191,7 @@
         return  [NSString stringWithFormat:@"%@月",[self.month objectAtIndex:row]];
     }
     
-    return [NSString stringWithFormat:@"%ld日",row +1];
+    return [NSString stringWithFormat:@"%d日",(int)(row +1)];
     
 }
 

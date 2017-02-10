@@ -22,7 +22,7 @@
     UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
   
     XGYCalendarBlackView *blackView = [[XGYCalendarBlackView alloc] initWithFrame:keyWindow.bounds defaultDate:nil WithCompleteBlock:timeBlock animation:annimation];
-    blackView.tag = 574897287629829;//随便写的
+    blackView.tag = 574897;//随便写的
      [keyWindow addSubview:blackView];
     if (annimation) {
         
@@ -43,7 +43,7 @@
 + (void)hideenCalendarWithAnimation:(BOOL)annimation
 {
     UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
-    UIView *view = [keyWindow viewWithTag:574897287629829];
+    UIView *view = [keyWindow viewWithTag:574897];
     
     if ([view isKindOfClass:[XGYCalendarBlackView class]]) {
         XGYCalendarBlackView*vv =(XGYCalendarBlackView *)view;
@@ -63,7 +63,7 @@
 {
     UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
     XGYPickerCalendar  *picker= [[XGYPickerCalendar alloc] initWithFrame:keyWindow.bounds compeletBlock:timeBlock];
-    picker.tag = 57489728789829;
+    picker.tag = 57489;
     [keyWindow addSubview:picker];
     picker.defaultDate = [NSDate date];
     [UIView animateWithDuration:kShowCalendarAnnimatonTime animations:^{
@@ -80,7 +80,7 @@
 + (void)hideenPickerCalendarWithAnimation:(BOOL)annimation
 {
     UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
-    UIView *view = [keyWindow viewWithTag:57489728789829];
+    UIView *view = [keyWindow viewWithTag:57489];
    if ([view isKindOfClass:[XGYPickerCalendar class]])
     {
         XGYPickerCalendar*pick =(XGYPickerCalendar *)view;
@@ -103,7 +103,7 @@
     if (type == XGYCalendarType_Page) {
    
         XGYCalendarBlackView *blackView = [[XGYCalendarBlackView alloc] initWithFrame:keyWindow.bounds defaultDate:defaultDate WithCompleteBlock:timeBlock animation:YES];
-        blackView.tag = 574897287629829;
+        blackView.tag = 574897;
         [keyWindow addSubview:blackView];
         [UIView animateWithDuration:kShowCalendarAnnimatonTime animations:^{
             blackView.alpha = 1.0f;
@@ -112,7 +112,7 @@
     }else
     {
         XGYPickerCalendar  *picker= [[XGYPickerCalendar alloc] initWithFrame:keyWindow.bounds compeletBlock:timeBlock];
-        picker.tag = 574897287629829;
+        picker.tag = 574897;
         [keyWindow addSubview:picker];
   
         picker.defaultDate = defaultDate;
@@ -133,7 +133,7 @@
 {
 
     UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
-    UIView *view = [keyWindow viewWithTag:574897287629829];
+    UIView *view = [keyWindow viewWithTag:574897];
     if ([view isKindOfClass:[XGYPickerCalendar class]])
     {
         XGYPickerCalendar*pick =(XGYPickerCalendar *)view;
