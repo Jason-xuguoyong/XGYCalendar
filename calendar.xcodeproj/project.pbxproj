@@ -15,6 +15,21 @@
 		96180EE31E4AFF4B00DA8CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96180EE11E4AFF4B00DA8CA4 /* LaunchScreen.storyboard */; };
 		96180EEE1E4AFF4B00DA8CA4 /* calendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180EED1E4AFF4B00DA8CA4 /* calendarTests.m */; };
 		96180EF91E4AFF4B00DA8CA4 /* calendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180EF81E4AFF4B00DA8CA4 /* calendarUITests.m */; };
+		96180F371E4B1AED00DA8CA4 /* NSDate+XGYCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180F251E4B1AED00DA8CA4 /* NSDate+XGYCalendar.m */; };
+		96180F381E4B1AED00DA8CA4 /* XGYCalendarBlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180F281E4B1AED00DA8CA4 /* XGYCalendarBlackView.m */; };
+		96180F391E4B1AED00DA8CA4 /* XGYCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180F2A1E4B1AED00DA8CA4 /* XGYCalendarCell.m */; };
+		96180F3A1E4B1AED00DA8CA4 /* XGYCalendarMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180F2C1E4B1AED00DA8CA4 /* XGYCalendarMonth.m */; };
+		96180F3B1E4B1AED00DA8CA4 /* XGYCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180F2E1E4B1AED00DA8CA4 /* XGYCalendarScrollView.m */; };
+		96180F3C1E4B1AED00DA8CA4 /* XGYCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180F301E4B1AED00DA8CA4 /* XGYCalendarTool.m */; };
+		96180F3D1E4B1AED00DA8CA4 /* XGYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180F321E4B1AED00DA8CA4 /* XGYCalendarView.m */; };
+		96180F3E1E4B1AED00DA8CA4 /* XGYCalendarYearView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180F341E4B1AED00DA8CA4 /* XGYCalendarYearView.m */; };
+		96180F3F1E4B1AED00DA8CA4 /* XGYYearItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96180F361E4B1AED00DA8CA4 /* XGYYearItemCell.m */; };
+		96CDDFCD1E4C3FDE00E1E0FE /* XGYPickerCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CDDFCC1E4C3FDE00E1E0FE /* XGYPickerCalendar.m */; };
+		96CDDFE41E4C4D2B00E1E0FE /* next_year_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CDDFE01E4C4D2B00E1E0FE /* next_year_icon.png */; };
+		96CDDFE51E4C4D2B00E1E0FE /* last_year_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CDDFE11E4C4D2B00E1E0FE /* last_year_icon.png */; };
+		96CDDFE61E4C4D2B00E1E0FE /* next_month_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CDDFE21E4C4D2B00E1E0FE /* next_month_icon.png */; };
+		96CDDFE71E4C4D2B00E1E0FE /* last_month_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CDDFE31E4C4D2B00E1E0FE /* last_month_icon.png */; };
+		96CDDFEA1E4C4E0B00E1E0FE /* UIView+XGYFrameExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CDDFE91E4C4E0B00E1E0FE /* UIView+XGYFrameExtention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,34 @@
 		96180EF41E4AFF4B00DA8CA4 /* calendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96180EF81E4AFF4B00DA8CA4 /* calendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calendarUITests.m; sourceTree = "<group>"; };
 		96180EFA1E4AFF4B00DA8CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96180F241E4B1AED00DA8CA4 /* NSDate+XGYCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XGYCalendar.h"; sourceTree = "<group>"; };
+		96180F251E4B1AED00DA8CA4 /* NSDate+XGYCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XGYCalendar.m"; sourceTree = "<group>"; };
+		96180F261E4B1AED00DA8CA4 /* XGYCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYCalendar.h; sourceTree = "<group>"; };
+		96180F271E4B1AED00DA8CA4 /* XGYCalendarBlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYCalendarBlackView.h; sourceTree = "<group>"; };
+		96180F281E4B1AED00DA8CA4 /* XGYCalendarBlackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYCalendarBlackView.m; sourceTree = "<group>"; };
+		96180F291E4B1AED00DA8CA4 /* XGYCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYCalendarCell.h; sourceTree = "<group>"; };
+		96180F2A1E4B1AED00DA8CA4 /* XGYCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYCalendarCell.m; sourceTree = "<group>"; };
+		96180F2B1E4B1AED00DA8CA4 /* XGYCalendarMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYCalendarMonth.h; sourceTree = "<group>"; };
+		96180F2C1E4B1AED00DA8CA4 /* XGYCalendarMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYCalendarMonth.m; sourceTree = "<group>"; };
+		96180F2D1E4B1AED00DA8CA4 /* XGYCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYCalendarScrollView.h; sourceTree = "<group>"; };
+		96180F2E1E4B1AED00DA8CA4 /* XGYCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYCalendarScrollView.m; sourceTree = "<group>"; };
+		96180F2F1E4B1AED00DA8CA4 /* XGYCalendarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYCalendarTool.h; sourceTree = "<group>"; };
+		96180F301E4B1AED00DA8CA4 /* XGYCalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYCalendarTool.m; sourceTree = "<group>"; };
+		96180F311E4B1AED00DA8CA4 /* XGYCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYCalendarView.h; sourceTree = "<group>"; };
+		96180F321E4B1AED00DA8CA4 /* XGYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYCalendarView.m; sourceTree = "<group>"; };
+		96180F331E4B1AED00DA8CA4 /* XGYCalendarYearView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYCalendarYearView.h; sourceTree = "<group>"; };
+		96180F341E4B1AED00DA8CA4 /* XGYCalendarYearView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYCalendarYearView.m; sourceTree = "<group>"; };
+		96180F351E4B1AED00DA8CA4 /* XGYYearItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYYearItemCell.h; sourceTree = "<group>"; };
+		96180F361E4B1AED00DA8CA4 /* XGYYearItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYYearItemCell.m; sourceTree = "<group>"; };
+		96CDDFCA1E4C15FB00E1E0FE /* XGYCalendarConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XGYCalendarConfiguration.h; sourceTree = "<group>"; };
+		96CDDFCB1E4C3FDE00E1E0FE /* XGYPickerCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XGYPickerCalendar.h; sourceTree = "<group>"; };
+		96CDDFCC1E4C3FDE00E1E0FE /* XGYPickerCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XGYPickerCalendar.m; sourceTree = "<group>"; };
+		96CDDFE01E4C4D2B00E1E0FE /* next_year_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_year_icon.png; sourceTree = "<group>"; };
+		96CDDFE11E4C4D2B00E1E0FE /* last_year_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = last_year_icon.png; sourceTree = "<group>"; };
+		96CDDFE21E4C4D2B00E1E0FE /* next_month_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_month_icon.png; sourceTree = "<group>"; };
+		96CDDFE31E4C4D2B00E1E0FE /* last_month_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = last_month_icon.png; sourceTree = "<group>"; };
+		96CDDFE81E4C4E0B00E1E0FE /* UIView+XGYFrameExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XGYFrameExtention.h"; sourceTree = "<group>"; };
+		96CDDFE91E4C4E0B00E1E0FE /* UIView+XGYFrameExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XGYFrameExtention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +144,7 @@
 		96180ED21E4AFF4B00DA8CA4 /* calendar */ = {
 			isa = PBXGroup;
 			children = (
+				96180F231E4B1AED00DA8CA4 /* XGYCalendar */,
 				96180ED61E4AFF4B00DA8CA4 /* AppDelegate.h */,
 				96180ED71E4AFF4B00DA8CA4 /* AppDelegate.m */,
 				96180ED91E4AFF4B00DA8CA4 /* ViewController.h */,
@@ -138,6 +182,49 @@
 				96180EFA1E4AFF4B00DA8CA4 /* Info.plist */,
 			);
 			path = calendarUITests;
+			sourceTree = "<group>";
+		};
+		96180F231E4B1AED00DA8CA4 /* XGYCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				96CDDFDF1E4C4D2100E1E0FE /* imageResource */,
+				96180F2F1E4B1AED00DA8CA4 /* XGYCalendarTool.h */,
+				96180F301E4B1AED00DA8CA4 /* XGYCalendarTool.m */,
+				96CDDFCA1E4C15FB00E1E0FE /* XGYCalendarConfiguration.h */,
+				96180F241E4B1AED00DA8CA4 /* NSDate+XGYCalendar.h */,
+				96180F251E4B1AED00DA8CA4 /* NSDate+XGYCalendar.m */,
+				96CDDFE81E4C4E0B00E1E0FE /* UIView+XGYFrameExtention.h */,
+				96CDDFE91E4C4E0B00E1E0FE /* UIView+XGYFrameExtention.m */,
+				96180F261E4B1AED00DA8CA4 /* XGYCalendar.h */,
+				96180F271E4B1AED00DA8CA4 /* XGYCalendarBlackView.h */,
+				96180F281E4B1AED00DA8CA4 /* XGYCalendarBlackView.m */,
+				96180F291E4B1AED00DA8CA4 /* XGYCalendarCell.h */,
+				96180F2A1E4B1AED00DA8CA4 /* XGYCalendarCell.m */,
+				96180F2B1E4B1AED00DA8CA4 /* XGYCalendarMonth.h */,
+				96180F2C1E4B1AED00DA8CA4 /* XGYCalendarMonth.m */,
+				96180F2D1E4B1AED00DA8CA4 /* XGYCalendarScrollView.h */,
+				96180F2E1E4B1AED00DA8CA4 /* XGYCalendarScrollView.m */,
+				96180F311E4B1AED00DA8CA4 /* XGYCalendarView.h */,
+				96180F321E4B1AED00DA8CA4 /* XGYCalendarView.m */,
+				96180F331E4B1AED00DA8CA4 /* XGYCalendarYearView.h */,
+				96180F341E4B1AED00DA8CA4 /* XGYCalendarYearView.m */,
+				96180F351E4B1AED00DA8CA4 /* XGYYearItemCell.h */,
+				96180F361E4B1AED00DA8CA4 /* XGYYearItemCell.m */,
+				96CDDFCB1E4C3FDE00E1E0FE /* XGYPickerCalendar.h */,
+				96CDDFCC1E4C3FDE00E1E0FE /* XGYPickerCalendar.m */,
+			);
+			path = XGYCalendar;
+			sourceTree = "<group>";
+		};
+		96CDDFDF1E4C4D2100E1E0FE /* imageResource */ = {
+			isa = PBXGroup;
+			children = (
+				96CDDFE01E4C4D2B00E1E0FE /* next_year_icon.png */,
+				96CDDFE11E4C4D2B00E1E0FE /* last_year_icon.png */,
+				96CDDFE21E4C4D2B00E1E0FE /* next_month_icon.png */,
+				96CDDFE31E4C4D2B00E1E0FE /* last_month_icon.png */,
+			);
+			path = imageResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +336,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CDDFE41E4C4D2B00E1E0FE /* next_year_icon.png in Resources */,
+				96CDDFE51E4C4D2B00E1E0FE /* last_year_icon.png in Resources */,
 				96180EE31E4AFF4B00DA8CA4 /* LaunchScreen.storyboard in Resources */,
 				96180EE01E4AFF4B00DA8CA4 /* Assets.xcassets in Resources */,
+				96CDDFE71E4C4D2B00E1E0FE /* last_month_icon.png in Resources */,
+				96CDDFE61E4C4D2B00E1E0FE /* next_month_icon.png in Resources */,
 				96180EDE1E4AFF4B00DA8CA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +367,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96180F3F1E4B1AED00DA8CA4 /* XGYYearItemCell.m in Sources */,
 				96180EDB1E4AFF4B00DA8CA4 /* ViewController.m in Sources */,
+				96180F3D1E4B1AED00DA8CA4 /* XGYCalendarView.m in Sources */,
+				96180F3A1E4B1AED00DA8CA4 /* XGYCalendarMonth.m in Sources */,
+				96180F381E4B1AED00DA8CA4 /* XGYCalendarBlackView.m in Sources */,
+				96180F391E4B1AED00DA8CA4 /* XGYCalendarCell.m in Sources */,
+				96CDDFCD1E4C3FDE00E1E0FE /* XGYPickerCalendar.m in Sources */,
 				96180ED81E4AFF4B00DA8CA4 /* AppDelegate.m in Sources */,
+				96180F3C1E4B1AED00DA8CA4 /* XGYCalendarTool.m in Sources */,
 				96180ED51E4AFF4B00DA8CA4 /* main.m in Sources */,
+				96CDDFEA1E4C4E0B00E1E0FE /* UIView+XGYFrameExtention.m in Sources */,
+				96180F3B1E4B1AED00DA8CA4 /* XGYCalendarScrollView.m in Sources */,
+				96180F371E4B1AED00DA8CA4 /* NSDate+XGYCalendar.m in Sources */,
+				96180F3E1E4B1AED00DA8CA4 /* XGYCalendarYearView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YY5BNMAGUW;
 				INFOPLIST_FILE = calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rmt.calendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +542,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YY5BNMAGUW;
 				INFOPLIST_FILE = calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rmt.calendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +618,7 @@
 				96180EFF1E4AFF4B00DA8CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96180F001E4AFF4B00DA8CA4 /* Build configuration list for PBXNativeTarget "calendarTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +627,7 @@
 				96180F021E4AFF4B00DA8CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96180F031E4AFF4B00DA8CA4 /* Build configuration list for PBXNativeTarget "calendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +636,7 @@
 				96180F051E4AFF4B00DA8CA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
